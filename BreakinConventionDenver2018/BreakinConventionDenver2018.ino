@@ -256,7 +256,7 @@ void patternFade() {
       analogWrite(ledB, 0);
       break;
     default:
-      analogWrite(ledR, prev_FadeVal);// DEFAULT RED
+      analogWrite(ledR, prev_FadeVal);// DEFAULT RED 'A'
       analogWrite(ledG, 0);
       analogWrite(ledB, 0);
       break;
