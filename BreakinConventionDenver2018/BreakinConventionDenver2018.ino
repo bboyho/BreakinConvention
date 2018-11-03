@@ -69,6 +69,7 @@ void loop() {
 
       if (start_fade == false){//start fade at same time by receiving any character
       start_fade = true;
+      prev_FadeVal = 0;
       current_FadeVal = 0;
     }
     //if debugging, we can see what character is recevied
